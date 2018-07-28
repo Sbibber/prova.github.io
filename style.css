@@ -1,0 +1,123 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: courier;
+  font-size: 0.8em;
+}
+.container{
+  max-width: 40%;
+  margin: 0 auto;
+}
+#header .container{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.logoCenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+#header{
+  background-color: black;
+  width: auto;
+  height: 150px;
+  margin: 0px;
+}
+#header .container{
+  padding: 40px 0 0;
+}
+.nav{
+  list-style:none;
+  margin:0;
+  padding:20px 0 0;
+  text-align:center;
+}
+.nav li{
+  display:inline;
+}
+.nav a{
+  color:white;
+  display:inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.nav a:active{
+  color:yellow;
+  display:inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+#secHeader{
+  height: 600px;
+  background-image: url("gif/11.gif");
+  background-size: 2000px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#secHeader p{
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 220px;
+  font-weight: bold;
+}
+#secHeader p{
+  color:yellow;
+  text-align: center;
+}
+.cTitle{
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.lTitle{
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+.jTextBox{
+  text-align: justify;
+}
+.lTextBox{
+  text-align: left;
+  float: left;
+  position: static;
+}
+.rTextBox{
+  text-align: right;
+  float: right;
+}
+a{
+  color: yellow;
+  text-decoration: none;
+}
+#footer{
+  clear: left;
+}
+#footer .container .centerText{
+  font-size: 0.7em;
+  text-align: center;
+  padding: 20px;
+  margin-top: 200px;
+  margin-bottom: 20px;
+  clear: left;
+}
+a:hover{
+  background-image: url("gif/5.gif");
+  color: white;
+  font-weight: bold;
+  background-color: yellow;
+}
+::selection {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
